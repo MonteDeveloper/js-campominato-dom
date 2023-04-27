@@ -1,0 +1,63 @@
+body{
+    background-color: #7fffd4 !important;
+}
+
+.my-square{
+    display: inline-block;
+    background-color: #7fffd4;
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: transform .2s;
+}
+
+.my-square:hover{
+    cursor: pointer;
+    transform: scale(.95);
+}
+
+.topbox{
+    height: 60px;
+    margin: 0 auto;
+}
+
+.topbox > .input-group{
+    width: 300px !important;
+}
+
+.my-greenBorder{
+    border: 1px solid #7fffd4;
+}
+
+.bottombox{
+    height: calc(100vh - 60px - 100px);
+}
+
+#my-textGame{
+    height: 100px;
+}
+
+.active{
+    background-color: white;
+}
+
+.active.bomb{
+    background-color: crimson !important;
+}
+
+#my-gameoverBox{
+    background-color: #157347ec;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.active:hover{
+    cursor: inherit;
+    transform: scale(1);
+}
